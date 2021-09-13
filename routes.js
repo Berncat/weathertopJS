@@ -3,7 +3,6 @@
 const express = require("express");
 const router = express.Router();
 
-
 const about = require("./controllers/about.js");
 const accounts = require("./controllers/accounts.js");
 const dashboard = require("./controllers/dashboard.js");
