@@ -1,7 +1,6 @@
 "use strict";
 
 const weatherConditions = new Map();
-
 weatherConditions.set(200, { description: "Thunderstorm with light rain", icon: "bolt" });
 weatherConditions.set(201, { description: "Thunderstorm with rain", icon: "bolt" });
 weatherConditions.set(202, { description: "Thunderstorm with heavy rain", icon: "bolt" });

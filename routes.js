@@ -9,7 +9,6 @@ const accounts = require("./controllers/accounts.js");
 const dashboard = require("./controllers/dashboard.js");
 const station = require("./controllers/station.js");
 
-
 router.get("/about", about.index);
 
 router.get("/", accounts.index);

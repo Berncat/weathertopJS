@@ -86,5 +86,4 @@ const stationStore = {
     this.store.save();
   }
 };
-
 module.exports = stationStore;

@@ -91,5 +91,4 @@ const accounts = {
     return userStore.getUserByEmail(userEmail);
   }
 };
-
 module.exports = accounts;
