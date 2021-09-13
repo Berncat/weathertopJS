@@ -1,5 +1,5 @@
 Welcome to the WeatherTop 2.0 App
-==============================
+==================================
 
 A starter project for learning Glitch, Java Script and Handlebars
 
