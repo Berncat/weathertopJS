@@ -38,7 +38,8 @@ const accounts = {
   edit(request, response) {
     logger.info("Edit details rendering");
     const viewData = {
-      title: "Edit details"
+      title: "Edit details",
+      user: accounts.getCurrentUser(request),
     };
     response.render("edit", viewData);
   },
