@@ -81,5 +81,4 @@ const station = {
     response.redirect("/station/" + stationId);
   }
 };
-
 module.exports = station;

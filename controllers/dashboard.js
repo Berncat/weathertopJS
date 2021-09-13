@@ -44,5 +44,4 @@ const dashboard = {
     response.redirect("/dashboard");
   }
 };
-
 module.exports = dashboard;

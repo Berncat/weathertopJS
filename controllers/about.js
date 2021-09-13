@@ -11,6 +11,5 @@ const about = {
     response.render("about", viewData);
   }
 };
-
 module.exports = about;
 

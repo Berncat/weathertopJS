@@ -63,5 +63,4 @@ class JsonStore {
       .value();
   }
 }
-
 module.exports = JsonStore;
