@@ -1,0 +1,23 @@
+{{> menu}}
+{{#each stations}}
+  {{> stationsummary}}
+{{/each}}
+{{> addreading}}
+<div class="ui styled fluid accordion">
+  <div class="title">
+    <i class="dropdown icon"></i>
+    List of Readings
+  </div>
+  <div class="content">
+    {{> listreadings}}
+  </div>
+  <div class="active title">
+    <i class="dropdown icon"></i>
+    Trend Charts
+  </div>
+  <div class="active content">
+    {{> trendcharts}}
+  </div>
+</div>
+
+<script>$(".ui.accordion").accordion();</script>

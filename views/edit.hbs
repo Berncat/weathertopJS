@@ -1,0 +1,27 @@
+{{> menu}}
+
+<div class="ui placeholder segment">
+  <h1 class="ui massive center aligned header">Edit Login Details</h1>
+  <form class="ui form" action="/edit" method="POST">
+    <div class="field">
+      <label>First Name</label>
+      <input placeholder="First Name" type="text" name="firstName" required="required">
+    </div>
+    <div class="field">
+      <label>Last Name</label>
+      <input placeholder="Last Name" type="text" name="lastName" required="required">
+    </div>
+    <div class="field">
+      <label>Email</label>
+      <input placeholder="Email" type="text" name="email" required="required">
+    </div>
+    <div class="field">
+      <label>Password</label>
+      <input type="password" name="password" required="required">
+    </div>
+    <br>
+    <button class="ui right labeled icon blue fluid button"><i class="sync icon"></i>Update Details</button>
+    <h3 class="ui center aligned header">You will be redirected to the login screen and have to login using your new
+      details</h3>
+  </form>
+</div>
