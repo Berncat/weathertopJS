@@ -61,6 +61,15 @@
           "pressure": 1020
         }
       ]
+    },
+    {
+      "id": "e74aba30-1431-11ec-811e-8163f5fbc44e",
+      "userid": "dc725050-09e6-11ec-a2c3-b7fd0fd485ab",
+      "name": "Achill, Co. Mayo",
+      "latitude": "20",
+      "longitude": "10",
+      "report": {},
+      "readings": []
     }
   ]
 }
