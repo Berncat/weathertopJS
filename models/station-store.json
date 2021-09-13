@@ -63,13 +63,98 @@
       ]
     },
     {
-      "id": "e74aba30-1431-11ec-811e-8163f5fbc44e",
+      "id": "80b2f300-143b-11ec-9a28-1fcb8fd72f43",
       "userid": "dc725050-09e6-11ec-a2c3-b7fd0fd485ab",
       "name": "Achill, Co. Mayo",
       "latitude": "20",
       "longitude": "10",
-      "report": {},
-      "readings": []
+      "report": {
+        "time": "12/9/2021, 23:40:27",
+        "code": 711,
+        "conditions": "Smoke",
+        "icon": "smog",
+        "tempC": 25,
+        "tempF": 77,
+        "windSpeed": 10,
+        "beaufort": 2,
+        "windChill": 26.55,
+        "windDirection": 10,
+        "windCompass": "N",
+        "pressure": 1000,
+        "minTemp": 25,
+        "maxTemp": 25,
+        "tempTrend": "question",
+        "minWind": 10,
+        "maxWind": 10,
+        "windTrend": "question",
+        "minPressure": 1000,
+        "maxPressure": 1000,
+        "pressureTrend": "question"
+      },
+      "readings": [
+        {
+          "id": "aa2c03c0-143b-11ec-9a28-1fcb8fd72f43",
+          "time": "12/9/2021, 23:40:27",
+          "input": "Manual",
+          "code": 711,
+          "temperature": 25,
+          "windSpeed": 10,
+          "windDirection": 10,
+          "pressure": 1000
+        }
+      ]
+    },
+    {
+      "id": "71f04cd0-1447-11ec-9f94-fdb7b3006fe6",
+      "userid": "dc509510-143a-11ec-9a28-1fcb8fd72f43",
+      "name": "Test",
+      "latitude": "10",
+      "longitude": "20",
+      "report": {
+        "time": "9/13/2021, 4:03:04 AM",
+        "code": 501,
+        "conditions": "Moderate rain",
+        "icon": "cloud sun rain",
+        "tempC": 22.02,
+        "tempF": 71.64,
+        "windSpeed": 0.68,
+        "beaufort": 0,
+        "windChill": 24.32,
+        "windDirection": 200,
+        "windCompass": "SSW",
+        "pressure": 1012,
+        "minTemp": 22.02,
+        "maxTemp": 22.02,
+        "tempTrend": "question",
+        "minWind": 0.68,
+        "maxWind": 0.68,
+        "windTrend": "question",
+        "minPressure": 1012,
+        "maxPressure": 1012,
+        "pressureTrend": "question"
+      },
+      "readings": [
+        {
+          "id": "781b4790-1447-11ec-9f94-fdb7b3006fe6",
+          "time": "9/13/2021, 4:02:53 AM",
+          "input": "Auto",
+          "code": 501,
+          "temperature": 22.02,
+          "windSpeed": 0.68,
+          "windDirection": 200,
+          "pressure": 1012
+        },
+        {
+          "id": "7f09e070-1447-11ec-9f94-fdb7b3006fe6",
+          "time": "9/13/2021, 4:03:04 AM",
+          "input": "Auto",
+          "code": 501,
+          "temperature": 22.02,
+          "windSpeed": 0.68,
+          "windDirection": 200,
+          "pressure": 1012
+        }
+      ]
     }
   ]
 }
