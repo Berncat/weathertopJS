@@ -1,0 +1,27 @@
+<div class="ui segment" id="windchart"></div>
+<script>
+  const windData = {
+    labels: [
+      {{#each charts.times}}
+        "{{this}}",
+      {{/each}}
+    ],
+    datasets: [
+      {
+        name: "Wind Speed", type: "line",
+        values: [
+          {{#each charts.windSpeeds}}
+            {{this}},
+          {{/each}}
+        ]
+      }
+    ]
+  };
+
+  const windchart = new frappe.Chart("#windchart", {
+    title: "Wind Speed Trend",
+    data: windData,
+    type: "line",
+    height: 250
+  });
+</script>

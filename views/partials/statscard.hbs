@@ -1,0 +1,95 @@
+<div class="ui card">
+
+    <div class="content">
+        <h1 class="ui large header">Stats </h1>
+    </div>
+    {{#if readings.length}}
+    <div class="content">
+        <h4 class="ui center aligned header">Temperature (&#176C)</h4>
+        <div class="ui three statistics">
+            <div class="ui tiny statistic">
+                <div class="value">
+                    {{report.minTemp}}
+                </div>
+                <div class="label">
+                    Min
+                </div>
+            </div>
+            <div class="ui tiny statistic">
+                <div class="value">
+                    {{report.maxTemp}}
+                </div>
+                <div class="label">
+                    Max
+                </div>
+            </div>
+            <div class="ui tiny statistic">
+                <div class="value">
+                    <i class="blue {{report.tempTrend}} icon"></i>
+                </div>
+                <div class="label">
+                    Trend
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <h4 class="ui center aligned header">Wind Speed (km/hr)</h4>
+        <div class="ui three statistics">
+            <div class="ui tiny statistic">
+                <div class="value">
+                    {{report.minWind}}
+                </div>
+                <div class="label">
+                    Min
+                </div>
+            </div>
+            <div class="ui tiny statistic">
+                <div class="value">
+                    {{report.maxWind}}
+                </div>
+                <div class="label">
+                    Max
+                </div>
+            </div>
+            <div class="ui tiny statistic">
+                <div class="value">
+                    <i class="blue {{report.windTrend}} icon"></i>
+                </div>
+                <div class="label">
+                    Trend
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <h4 class="ui center aligned header">Pressure (hPa)</h4>
+        <div class="ui three statistics">
+            <div class="ui tiny statistic">
+                <div class="value">
+                    {{report.minPressure}}
+                </div>
+                <div class="label">
+                    Min
+                </div>
+            </div>
+            <div class="ui tiny statistic">
+                <div class="value">
+                    {{report.maxPressure}}
+                </div>
+                <div class="label">
+                    Max
+                </div>
+            </div>
+            <div class="ui tiny statistic">
+                <div class="value">
+                    <i class="blue {{report.pressureTrend}} icon"></i>
+                </div>
+                <div class="label">
+                    Trend
+                </div>
+            </div>
+        </div>
+    </div>
+    {{/if}}
+</div>

@@ -1,0 +1,46 @@
+<div class="ui card">
+<div class="content">
+  <h1 class="ui large header">Latest reading</h1>
+  {{#if readings.length}}
+    <table class="ui definition table">
+      <tbody>
+      <tr>
+        <td><i class="blue clock big icon"></i> Date/Time</td>
+        <td>{{report.time}}</td>
+      </tr>
+      <tr>
+        <td><i class="big {{report.icon}} blue icon"></i> Code</td>
+        <td>{{report.code}}
+          <br>
+          {{report.conditions}}
+        </td>
+      </tr>
+      <tr>
+        <td><i class="blue temperature high big icon"></i> Temperature</td>
+        <td>
+          {{report.tempC}} &#176C
+          <br>
+          {{report.tempF}} &#176F
+        </td>
+      </tr>
+      <tr>
+        <td><i class="blue wind big icon"></i> Wind</td>
+        <td>
+          {{report.windSpeed}} km/hr
+          <br>
+          {{report.beaufort}} bft
+          <br>
+          Feels like: {{report.windChill}} &#176C
+          <br>
+          Direction: {{report.windCompass}} {{report.windDirection}} &#176
+        </td>
+      </tr>
+      <tr>
+        <td><i class="blue chart bar big icon"></i> Pressure</td>
+        <td>{{report.pressure}} hPa</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  {{/if}}
+</div>

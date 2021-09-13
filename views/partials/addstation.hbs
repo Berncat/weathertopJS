@@ -1,0 +1,18 @@
+<form class="ui segment blue form" action="/dashboard/addstation" method="POST">
+  <div class="three fields">
+    <div class="field">
+      <label>Station Name</label>
+      <input type="text" name="name" required="required" placeholder="Name">
+    </div>
+    <div class="field">
+      <label for="latitude">Latitude</label>
+      <input type="number" name="latitude" required="required" min="-90" max="90" step="any" placeholder="00.00 &#176">
+    </div>
+    <div class="field">
+      <label for="longitude">Longitude</label>
+      <input type="number" name="longitude" required="required" min="-180" max="180" step="any"
+             placeholder="000.00 &#176">
+    </div>
+  </div>
+  <button class="ui fluid right labeled icon blue button"><i class="plus icon"></i>Add Station</button>
+</form>

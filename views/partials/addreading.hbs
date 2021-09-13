@@ -1,0 +1,88 @@
+<form class="ui segment blue form" action="/station/{{station.id}}/autoreading" method="POST">
+  <button class="ui fluid right labeled icon blue button"><i class="plus icon"></i>Auto Generate Reading</button>
+</form>
+<form class="ui segment grey form" action="/station/{{station.id}}/addreading" method="POST">
+  <div class="five fields">
+    <div class="field">
+      <label>Code</label>
+      <select name="code" class="ui dropdown" id="select" required="required">
+        <option></option>
+        <option value="200">200-Thunderstorm with light rain</option>
+        <option value="201">201-Thunderstorm with rain</option>
+        <option value="202">202-Thunderstorm with heavy rain</option>
+        <option value="210">210-Light thunderstorm</option>
+        <option value="211">211-Thunderstorm</option>
+        <option value="212">212-Heavy thunderstorm</option>
+        <option value="221">221-Ragged thunderstorm</option>
+        <option value="230">230-Thunderstorm with light drizzle</option>
+        <option value="231">231-Thunderstorm with drizzle</option>
+        <option value="232">232-Thunderstorm with heavy drizzle</option>
+        <option value="300">300-Light intensity drizzle</option>
+        <option value="301">301-Drizzle</option>
+        <option value="302">302-Heavy intensity drizzle</option>
+        <option value="310">310-Light intensity drizzle rain</option>
+        <option value="311">311-Drizzle rain</option>
+        <option value="312">312-Heavy intensity drizzle rain</option>
+        <option value="313">313-Shower rain and drizzle</option>
+        <option value="314">314-Heavy shower rain and drizzle</option>
+        <option value="321">321-Shower drizzle</option>
+        <option value="500">500-Light rain</option>
+        <option value="501">501-Moderate rain</option>
+        <option value="502">502-Heavy intensity rain</option>
+        <option value="503">503-Very heavy rain</option>
+        <option value="504">504-Extreme rain</option>
+        <option value="511">511-Freezing rain</option>
+        <option value="520">520-Light intensity shower rain</option>
+        <option value="521">521-Shower rain</option>
+        <option value="522">522-Heavy intensity shower rain</option>
+        <option value="531">531-Ragged shower rain</option>
+        <option value="600">600-Light snow</option>
+        <option value="601">601-Snow</option>
+        <option value="602">602-Heavy snow</option>
+        <option value="611">611-Sleet</option>
+        <option value="612">612-Light shower sleet</option>
+        <option value="613">613-Shower sleet</option>
+        <option value="615">615-Light rain and snow</option>
+        <option value="616">616-Rain and snow</option>
+        <option value="620">620-Light shower snow</option>
+        <option value="621">621-Shower snow</option>
+        <option value="622">622-Heavy shower snow</option>
+        <option value="701">701-Mist</option>
+        <option value="711">711-Smoke</option>
+        <option value="721">721-Haze</option>
+        <option value="731">731-Sand/dust whirls</option>
+        <option value="741">741-Fog</option>
+        <option value="751">751-Sand</option>
+        <option value="761">761-Dust</option>
+        <option value="762">762-Volcanic ash</option>
+        <option value="771">771-Squalls</option>
+        <option value="781">781-Tornado</option>
+        <option value="800">800-Clear sky</option>
+        <option value="801">801-Few clouds: 11-25%</option>
+        <option value="802">802-Scattered clouds: 25-50%</option>
+        <option value="803">803-Broken clouds: 51-84%</option>
+        <option value="804">804-Overcast clouds: 85-100%</option>
+      </select>
+    </div>
+    <div class="field">
+      <label for="temperature">Temperature</label>
+      <input type="number" id="temperature" name="temperature" required="required" min="-100" max="100" step="0.01"
+             placeholder="000.00 &#176C">
+    </div>
+    <div class="field">
+      <label for="windSpeed">Wind Speed</label>
+      <input type="number" id="windSpeed" name="windSpeed" required="required" min="0" max="500" step="0.01"
+             placeholder="000.00 km/hr">
+    </div>
+    <div class="field">
+      <label for="windDirection">Wind Direction</label>
+      <input type="number" id="windDirection" name="windDirection" required="required" min="0" max="360" step="0.01"
+             placeholder="000.00 &#176">
+    </div>
+    <div class="field">
+      <label for="pressure">Pressure</label>
+      <input type="number" id="pressure" name="pressure" required="required" min="0" max="1200" placeholder="0000 hPa">
+    </div>
+  </div>
+  <button class="ui fluid right labeled icon grey button"><i class="plus icon"></i>Add Reading Manually</button>
+</form>

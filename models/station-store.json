@@ -1,0 +1,66 @@
+{
+  "stationCollection": [
+    {
+      "id": "3037bad0-13c0-11ec-aa9a-8d95afbd8f85",
+      "userid": "dc725050-09e6-11ec-a2c3-b7fd0fd485ab",
+      "name": "Ballinrobe, Co. Mayo",
+      "latitude": "53.6333",
+      "longitude": "-9.2333",
+      "report": {
+        "time": "12/9/2021, 22:40:27",
+        "code": 803,
+        "conditions": "Broken clouds: 51-84%",
+        "icon": "cloud",
+        "tempC": 12.09,
+        "tempF": 53.76,
+        "windSpeed": 2.66,
+        "beaufort": 1,
+        "windChill": 12.94,
+        "windDirection": 83,
+        "windCompass": "E",
+        "pressure": 1020,
+        "minTemp": 12.09,
+        "maxTemp": 14.67,
+        "tempTrend": "arrow down",
+        "minWind": 2.41,
+        "maxWind": 3.17,
+        "windTrend": "arrows alternate horizontal",
+        "minPressure": 1010,
+        "maxPressure": 1020,
+        "pressureTrend": "arrow up"
+      },
+      "readings": [
+        {
+          "id": "7d155220-13f4-11ec-872e-f5effca13f75",
+          "time": "10/9/2021, 19:08:53",
+          "input": "Manual",
+          "code": 803,
+          "temperature": 14.67,
+          "windSpeed": 3.17,
+          "windDirection": 39,
+          "pressure": 1010
+        },
+        {
+          "id": "5d84a990-1405-11ec-8d30-9f0c46fb5ac5",
+          "time": "11/9/2021, 21:09:41",
+          "input": "Auto",
+          "code": 804,
+          "temperature": 13.31,
+          "windSpeed": 2.41,
+          "windDirection": 61,
+          "pressure": 1015
+        },
+        {
+          "id": "0b80a5b0-1412-11ec-92a1-f546140b1e06",
+          "time": "12/9/2021, 22:40:27",
+          "input": "Auto",
+          "code": 803,
+          "temperature": 12.09,
+          "windSpeed": 2.66,
+          "windDirection": 83,
+          "pressure": 1020
+        }
+      ]
+    }
+  ]
+}
